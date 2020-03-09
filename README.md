@@ -1,5 +1,5 @@
 # Awesome-GB28181
-repo、Articles  and so on.
+repo and Articles for GB28181、Video、Onvif、SIP and so on.
 搜整理的好的资源、项目、文章。
 
 ## Articles 
