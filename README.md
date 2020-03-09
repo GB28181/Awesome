@@ -9,10 +9,12 @@ repo and Articles for GB28181、Video、Onvif、SIP and so on.
 
 ## Repos
 
-+ [GB28181.Solution](https://github.com/GB28181/GB28181.Solution)
++ [GB28181.Solution](https://github.com/GB28181/GB28181.Solution) - Linux & Docker & kubernetes & Chart & GB28181 & 国标测评 & 作为上下级域 & 平台级联互联
 
-+ [sipsorcery](https://github.com/sipsorcery/sipsorcery)
 
-+ [GB28181(C/C++)](https://github.com/usecpp/gb28181-2016)
++ [sipsorcery](https://github.com/sipsorcery/sipsorcery) - A cross platform C# .NET library for SIP and WebRTC. 
+
++ [GB28181(C/C++)](https://github.com/usecpp/GB28181Platform) - A C/C++ version of GB28181
+
 
 
