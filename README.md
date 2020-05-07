@@ -41,4 +41,4 @@ repo and Articles for GB28181、Video、Onvif、SIP and so on.
 
 + [html5_rtsp_player](https://github.com/Streamedian/html5_rtsp_player)
 + [html5_rtsp_player](https://github.com/html5p/html5_rtsp_player) 上面的fork版本简化版
-+ [H5player_RTSP_over_websocket](https://github.com/LiHaifeng1995/H5player_RTSP_over_websocket) 上面的fork版本
++ [H5player_RTSP_over_websocket](https://github.com/LiHaifeng1995/H5player_RTSP_over_websocket) 上面的fork的进一步简化版本，只有js文件
