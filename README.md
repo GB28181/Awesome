@@ -32,3 +32,13 @@ repo and Articles for GB28181、Video、Onvif、SIP and so on.
 + [monibuca](https://github.com/langhuihui/monibuca) -->GO
 + [ZLMediaKit](https://github.com/GB28181/ZLMediaKit) --->C++
 + [SRS](https://github.com/GB28181/srs) --->C++
+
+### websocket server
+
+[websocket-streamserver](https://github.com/use-go/websocket-streamserver)
+
+### H5 Player
+
+[html5_rtsp_player](https://github.com/Streamedian/html5_rtsp_player)
+[html5_rtsp_player](https://github.com/html5p/html5_rtsp_player) 上面的fork版本
+[H5player_RTSP_over_websocket](https://github.com/LiHaifeng1995/H5player_RTSP_over_websocket) 上面的fork版本
