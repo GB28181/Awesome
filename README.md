@@ -28,16 +28,17 @@ repo and Articles for GB28181、Video、Onvif、SIP and so on.
 + [onvif protocol](https://github.com/use-go/onvif) - a go onvif protocol stack 
 
 ### Video
-
-+ [monibuca](https://github.com/langhuihui/monibuca) -->GO
-+ [ZLMediaKit](https://github.com/GB28181/ZLMediaKit) --->C++
-+ [SRS](https://github.com/GB28181/srs) --->C++
-+ [gb28181ToH264](https://github.com/debugger999/gb28181ToH264) -->ps流，转换为标准h.264裸流
+| Name | Description | Language |
+|:-------:|:----------- |:------:|
+| [monibuca](https://github.com/langhuihui/monibuca) | --->多协议插件化流媒体服务器 | GO |
+| [ZLMediaKit](https://github.com/GB28181/ZLMediaKit) | --->高性能运营商级流媒体服务 | C++ |
+| [SRS](https://github.com/GB28181/srs)| --->运营商级流媒体服务器 | C++ |
+| [gb28181ToH264](https://github.com/debugger999/gb28181ToH264) | -->ps流，转换为标准h.264裸流 | C++ |
 
 ### websocket server
 
 + [websocket-streamserver](https://github.com/use-go/websocket-streamserver)
- [monibuca-with-jessica](https://github.com/langhuihui/monibuca) 
++ [monibuca-with-jessica](https://github.com/langhuihui/monibuca) 
 
 ### H5 Player
 
