@@ -36,6 +36,7 @@ repo and Articles for GB28181、Video、Onvif、SIP and so on.
 ### websocket server
 
 + [websocket-streamserver](https://github.com/use-go/websocket-streamserver)
+ [monibuca-with-jessica](https://github.com/langhuihui/monibuca) 
 
 ### H5 Player
 
