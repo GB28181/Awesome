@@ -56,11 +56,13 @@ RTP头后的第一个16为固定为0XBEDE标志，意味着这是一个one-byte�
 
 扩展头为one-byte的情况下， RTP头后的第一个16为如下所示， 一个0x100 + appbits， appbits可以用来填充应用层级别的数据
 
+```
        0                   1
        0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5
       +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
       |         0x100         |appbits|
       +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+```
 
 一个例子如下, 可以看到开头为 0x100 + 0x0， 接下来的为length=3表示接下来有3个头，接下来的就是扩展头和数据，扩展头除了ID和L相对于one-byte header从4bits变成了8bits之后，其余都一样
 
@@ -78,6 +80,6 @@ RTP头后的第一个16为固定为0XBEDE标志，意味着这是一个one-byte�
       +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 ```
 
-RTP头部扩展总览 RFC5285:A General Mechanism for RTP Header Extensions
+[RTP头部扩展总览 RFC5285:A General Mechanism for RTP Header Extensions](https://tools.ietf.org/html/rfc5285)
 
 文章来源：<https://www.cnblogs.com/ishen/p/12050077.html>
