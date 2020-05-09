@@ -1,4 +1,4 @@
-# Awesome GB28181 Series esource
+# Awesome GB28181 Series Resource
 
 A curated list of awesome open source workflow engines
 
