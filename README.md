@@ -62,3 +62,7 @@ repo and Articles for GB28181、Video、Onvif、SIP and so on.
 项目需求来源于各位开源社区成员的需求反馈
 
 [行业项目的常见需求](https://github.com/GB28181/Awesome/blob/master/Projects/README.md)
+
+### 更多说明
+
+[summary](instruction.md)
