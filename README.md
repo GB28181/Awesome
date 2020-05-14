@@ -1,13 +1,7 @@
 
 A curated list of awesome open source workflow engines repo and Articles for GB28181、Video、Onvif、SIP and so on.
 
----
-
-内容: Awesome GB28181
-链接: https://media.arch.wiki
-作者: https://github.com/crazybber
-
----
+| 内容: Awesome GB28181 | 链接: https://media.arch.wiki | 作者: https://github.com/crazybber |
 
 GB28181 整理的资源、项目、文章
 
