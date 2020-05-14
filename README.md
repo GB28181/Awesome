@@ -66,3 +66,6 @@ repo and Articles for GB28181、Video、Onvif、SIP and so on.
 ### 更多说明
 
 [summary](instruction.md)
+
+[codec](./codec.md)
+[Articles](./Articels)
