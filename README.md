@@ -2,7 +2,7 @@
 
 内容: Awesome GB28181
 链接: https://media.arch.wiki
-作者: [Edward](https://github.com/crazybber)
+作者: https://github.com/crazybber
 
 ---
 
