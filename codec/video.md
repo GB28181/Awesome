@@ -1,12 +1,7 @@
-本页面文章链接：主要来源于：http://docs.monibuca.com/reference.html
-
-- [在OBS上进行H265推流](https://zhuanlan.zhihu.com/p/67829826)
-- [Windows10下使用WSL“愉快”编译FFMPEG（带x265编码器）](https://zhuanlan.zhihu.com/p/66696627)
-- [H5实时解码音频并播放](https://zhuanlan.zhihu.com/p/47028670)
-- [使用JS实现RTMP协议直播](https://my.oschina.net/langhuihui/blog/598338)
-- [使用JS实现RTMP协议直播（二）](https://my.oschina.net/langhuihui/blog/602265)
-- [使用JS实现RTMP协议直播（三）](https://my.oschina.net/langhuihui/blog/612144)
-- [mp4无法用于直播流](https://my.oschina.net/langhuihui/blog/519901)
+---
+标题： 文章收藏
+内容： 音视频相关
+---
 
 - [从H264/H265码流中获取宽、高及帧率 - 华的专栏 - 博客频道 - CSDN.NET](http://blog.csdn.net/wh8_2011/article/details/52175275)
 - [RTMP协议以及提取RTMP视频流组成H264视频文件 - 罗索实验室](http://www.rosoo.net/a/201405/16980.html)
@@ -28,6 +23,17 @@
 - [RTSP/SDP中的AAC配置](https://blog.csdn.net/wzj_whut/article/details/85472631)
 - [rtp的视频和音频格式初步分析(golang解析)](https://blog.csdn.net/sweibd/article/details/78072965?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
 
+## 系列文章
+
+
+- [在OBS上进行H265推流](https://zhuanlan.zhihu.com/p/67829826)
+- [Windows10下使用WSL“愉快”编译FFMPEG（带x265编码器）](https://zhuanlan.zhihu.com/p/66696627)
+- [H5实时解码音频并播放](https://zhuanlan.zhihu.com/p/47028670)
+- [使用JS实现RTMP协议直播](https://my.oschina.net/langhuihui/blog/598338)
+- [使用JS实现RTMP协议直播（二）](https://my.oschina.net/langhuihui/blog/602265)
+- [使用JS实现RTMP协议直播（三）](https://my.oschina.net/langhuihui/blog/612144)
+- [mp4无法用于直播流](https://my.oschina.net/langhuihui/blog/519901)
+
 ## 项目
 
 - https://github.com/mbebenita/Broadway
@@ -42,3 +48,5 @@
 - https://github.com/sevenzoe/gortmp
 - https://github.com/falconray0704/rtsp2rtmp
 - https://github.com/gwuhaolin/livego
+
+本页面文章链接：主要来源于：http://docs.monibuca.com/reference.html
