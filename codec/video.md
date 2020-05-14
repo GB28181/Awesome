@@ -8,7 +8,7 @@
 - [从H264/H265码流中获取宽、高及帧率 - 华的专栏 - 博客频道 - CSDN.NET](http://blog.csdn.net/wh8_2011/article/details/52175275)
 - [RTMP协议以及提取RTMP视频流组成H264视频文件 - 罗索实验室](http://www.rosoo.net/a/201405/16980.html)
 - [MP3格式音频文件结构解析 - fulinwsuafcie的专栏 - 博客频道 - CSDN.NET](http://blog.csdn.net/fulinwsuafcie/article/details/8972346)
-- [HTML5 视频直播（一） | JerryQu 的小站](https://imququ.com/post/html5-live-player-1.html)
+- [HTML5 视频直播（一）-> JerryQu 的小站](https://imququ.com/post/html5-live-player-1.html)
 - [MP4文件格式详解（ISO-14496-12/14） - nuoshueihe的专栏 - 博客频道 - CSDN.NET](http://blog.csdn.net/nuoshueihe/article/details/7709443)
 - [Mp4格式分析：Adobe的sample1_1500kbps.f4v文件格式之二：moov分析 - winlin, I'll do my best! - 博客频道 - CSDN.NET](http://blog.csdn.net/win_lin/article/details/8191873)
 - [C#+WebSocket+WebRTC多人语音视频系统 - OPEN 开发经验库](http://www.open-open.com/lib/view/open1406167367195.html)
