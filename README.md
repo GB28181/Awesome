@@ -14,7 +14,7 @@ GB28181 整理的资源、项目、文章
 
 + [GB28181.Solution 的 Wiki](https://github.com/GB28181/GB28181.Solution/wiki)
 
-+ [GB28181入门笔记](https://blog.csdn.net/sbddbfm/article/details/99095022)
++ [更多文章](Article/README.md)
 
 
 ## Repos
