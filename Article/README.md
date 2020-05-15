@@ -15,4 +15,4 @@
 
 |内容|开发语言|
 |:--------:|:--------:|
-| [SIP UA/UAC/UAS/GB28181-Server/GB28181-Client 五合一](https://www.cnblogs.com/dong1/p/12607489.html) | --->相关开发语言C/C++ |
+| [SIP UA/UAC/UAS/GB28181-Server/GB28181-Client 五合一](https://www.cnblogs.com/dong1/p/12607489.html) | C/C++ |
