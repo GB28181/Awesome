@@ -14,7 +14,7 @@ GB28181 整理的资源、项目、文章
 
 + [GB28181.Solution 的 Wiki](https://github.com/GB28181/GB28181.Solution/wiki)
 
-+ [更多文章](Article/README.md)
++ [更多文章...](Article/README.md)
 
 
 ## Repos
