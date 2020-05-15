@@ -24,6 +24,8 @@ GB28181 整理的资源、项目、文章
 + [GB28181.Solution](https://github.com/GB28181/GB28181.Solution) - Linux & Docker & kubernetes & Chart & GB28181 & 国标测评 & 作为上下级域 & 平台级联互联
 + [GB28181(C/C++)](https://github.com/usecpp/GB28181Platform) - A C/C++ version of GB28181
 
++ [GB28181-in-Android](https://github.com/zhoudd1/GB28181Android)
+
 #### Sip
 
 + [sipsorcery](https://github.com/sipsorcery/sipsorcery) - A cross platform C# .NET library for SIP and WebRTC. 
