@@ -7,11 +7,12 @@
 
 [国产开源流媒体SRS4.0对视频监控GB28181的支持](https://mp.weixin.qq.com/s/VIPSPaBB5suUk7_I2oOkMw)
 
-[Simple Site](HTTP-Live-Streaming/Category/)
 
 ## 协议
 
 [HLS(HTTP-Live-Streaming)](HTTP-Live-Streaming/README.md)
+
+[HLS Introduction](HTTP-Live-Streaming/Category/)
 
 ## Format
 
