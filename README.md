@@ -33,12 +33,13 @@ GB28181、SIP、Video、Streaming、Codec等相关的domain knowledge的分类�
 
 + [sipsorcery](https://github.com/sipsorcery/sipsorcery) - A cross platform C# .NET library for SIP and WebRTC. 
 
-### Living Packet
+### Living Streaming
 
 + [RTP通用头部扩展](https://www.cnblogs.com/ishen/p/12050077.html)
 + [RTP通用头部扩展-RFC5285](https://tools.ietf.org/html/rfc5285)
 + [PS封装格式：GB28181协议RTP传输](https://blog.csdn.net/ichenwin/article/details/100086930)
 + [PS流分析(收/发/组包)](https://blog.csdn.net/ichenwin/article/details/100086930)
++ [更多streaming相关的内容](stream/)
 
 #### Onvif
 
