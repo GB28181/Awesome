@@ -40,13 +40,13 @@ GB28181、SIP、Video、Streaming、Codec等相关的domain knowledge的分类�
 + [RTP通用头部扩展-RFC5285](https://tools.ietf.org/html/rfc5285)
 + [PS封装格式：GB28181协议RTP传输](https://blog.csdn.net/ichenwin/article/details/100086930)
 + [PS流分析(收/发/组包)](https://blog.csdn.net/ichenwin/article/details/100086930)
-+ [更多streaming相关的内容](stream/)
++ [更多streaming...](stream/)
 
 #### Onvif
 
 + [onvif protocol](https://github.com/use-go/onvif) - a go onvif protocol stack 
 
-### Video
+### Video Service
 
 | Name | Description | Language |
 |:-------:|:----------- |:------:|
@@ -56,7 +56,7 @@ GB28181、SIP、Video、Streaming、Codec等相关的domain knowledge的分类�
 | [SRS](https://github.com/GB28181/srs) | --->运营商级多功能集群化流媒体服务 | C++ |
 | [gb28181ToH264](https://github.com/debugger999/gb28181ToH264) | -->GB PS流，转换为标准h.264裸流 | C++ |
 
-### websocket
+### Websocket
 
 + [WSA](https://github.com/use-go/wsa)
 + [monibuca-with-jessica](https://github.com/langhuihui/monibuca) 
