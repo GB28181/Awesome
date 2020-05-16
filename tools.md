@@ -24,3 +24,5 @@ https://github.com/fusionpbx/fusionpbx-docs/blob/master/source/additional_inform
 https://blog.csdn.net/hanyingzhong/article/details/83960766
 
 http://blog.sina.cn/dpool/blog/s/blog_6db134880102wk40.html
+
+[Patrol(巡警)](https://github.com/lonelygo/patrol) 可用于安防国标系统的运维监控工具. -->[说明看这里](https://github.com/ccevan/patrol/wiki/%E8%A7%86%E9%A2%91%E5%B9%B3%E5%8F%B0%E7%99%BB%E5%BD%95%E4%BF%A1%E6%81%AFapi)
