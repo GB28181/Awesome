@@ -12,12 +12,14 @@ GB28181 整理的资源、项目、文章，热切欢迎PR.
 
 + [国标最新版(GB28181-2016)](https://github.com/GB28181/GB28181.Solution/blob/develop/docs/GBT%2028181-2016%20%E5%85%AC%E5%85%B1%E5%AE%89%E5%85%A8%E8%A7%86%E9%A2%91%E7%9B%91%E6%8E%A7%E8%81%94%E7%BD%91%E7%B3%BB%E7%BB%9F%E4%BF%A1%E6%81%AF%E4%BC%A0%E8%BE%93%E3%80%81%E4%BA%A4%E6%8D%A2%E3%80%81%E6%8E%A7%E5%88%B6%E6%8A%80%E6%9C%AF%E8%A6%81%E6%B1%82-%E7%9B%AE%E5%BD%95%E7%89%88.pdf) --->重点推荐，必读，必看！！！
 
++ [GB28181入门](Article/start.md)
 + [GB28181.Solution 的 Wiki](https://github.com/GB28181/GB28181.Solution/wiki)
-
 + [更多文章...](Article/README.md)
 
 
 ## Repos
+
+GB28181、SIP、Video、Streaming、Codec等相关的domain knowledge的分类仓库
 
 ### GB28181
 
