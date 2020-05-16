@@ -414,8 +414,6 @@ srs内部sip启动，设备注册成功后，会自动发送invite命令，如�
 	6013   sip设备通道不存在
 	6014   发送sip_raw_data失败
 	6015   sip消息解析失败
-  
-https://github.com/xialixin/srs/wiki
 
 ---
 来源：[gb28181-in-wiki](https://github.com/xialixin/srs/wiki)|
