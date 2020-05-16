@@ -32,8 +32,7 @@ GB28181检测
 GB28181的rport机制
 
 
-## GB28181的系统组成(包含有哪些角色)
- 
+## GB28181的系统角色组成(包含有哪些角色)
 
  1.  中心信令控制服务器 center control server
      向SIP客户端、SIP设备、媒体服务器和网关提供注册、路由选择及逻辑控制功能，并且提供接口与应用服务器通信。组成中心信令的实体包括代理服务器、注册服务器、重定向服务器、B2BUA等一种或几种，是负责核心SIP信令应用处理的SIP服务器。
@@ -140,3 +139,5 @@ GB28181的rport机制
 
 1. 一轮迭代一轮验收
 2.  根据实际使用场景，与对应的第三方平台进行实际对接，满足每一阶段功能点与性能要求。
+
+文章最初来源：[VideoSurveillanceNetworkSystemForPublicSecurity](https://github.com/songlei150/gb28181/wiki/VideoSurveillanceNetworkSystemForPublicSecurity) 编辑：Edwrd
