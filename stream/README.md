@@ -1,7 +1,7 @@
 
 ## streaming server
 
-[使用srs接收/拉取GB28181的PS流](srs-gb28181-operation.md)
+[使用srs接收GB28181的PS流](srs-gb28181-operation.md)
 
 ## Format
 
