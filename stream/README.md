@@ -3,6 +3,8 @@
 
 [使用srs接收GB28181的PS流](srs-gb28181-operation.md)
 
+[编译SRS支持GB28181](srs-gb28181-build.md)
+
 ## Format
 
 
