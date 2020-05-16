@@ -32,7 +32,7 @@ GB28181检测
 GB28181的rport机制
 
 
-## GB28181标准内的公共安全视频监控联网系统（videosurveillance network system for public security）系统组成
+## GB28181的系统组成(包含有哪些角色)
  
 
  1.  中心信令控制服务器 center control server
