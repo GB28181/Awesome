@@ -31,6 +31,15 @@ GB28181检测
 
 GB28181的rport机制
 
+## GB28181常见的网络架构
+
+不带流媒体服务的接入结构
+
+![without-streaming-server](../images/without-streaming-server.jpg)
+
+带流媒体服务的接入结构:
+
+![with-streaming-server](../images/with-streaming-server.jpg)
 
 ## GB28181的系统角色组成(包含有哪些角色)
 
