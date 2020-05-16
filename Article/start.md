@@ -152,5 +152,6 @@ GB28181的rport机制
 1. 一轮迭代一轮验收
 2.  根据实际使用场景，与对应的第三方平台进行实际对接，满足每一阶段功能点与性能要求。
 
+---
 
-文章最初来源：[VideoSurveillanceNetworkSystemForPublicSecurity](https://github.com/songlei150/gb28181/wiki/VideoSurveillanceNetworkSystemForPublicSecurity) 编辑：Edwrd
+文章来源：[VideoSurveillanceNetworkSystemForPublicSecurity](https://github.com/songlei150/gb28181/wiki/VideoSurveillanceNetworkSystemForPublicSecurity) |图片来源：[图片来源](https://github.com/songlei150/gb28181) | 编辑：Edwrd
