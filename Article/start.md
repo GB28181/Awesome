@@ -72,7 +72,7 @@ GB28181的rport机制
 
 如何构建一个GB28181系统/平台/网关，下面是一个可参考的迭代开发计划,可以在敏捷开发中，分为三个大的Componet或者EPIC.
 
-## - 第一阶段,基础构建阶段
+## - 第一阶段：基础构建阶段
     基础构建阶段的目标为：接入第三方国标系统平台的视频流，可点播，可回放，可云台控制（取决第三方平台支持程度），开发服务与软件包括SIP客户端、SIP中心控制服务器，一个软件一个服务器。
     1.  SIP客户端功能 （SDK库）
         1.1 支持GB28181 UAC注册
@@ -154,4 +154,4 @@ GB28181的rport机制
 
 ---
 
-文章来源：[VideoSurveillanceNetworkSystemForPublicSecurity](https://github.com/songlei150/gb28181/wiki/VideoSurveillanceNetworkSystemForPublicSecurity) |图片来源：[图片来源](https://github.com/songlei150/gb28181) | 编辑：Edwrd
+[文章来源](https://github.com/songlei150/gb28181/wiki/VideoSurveillanceNetworkSystemForPublicSecurity) |[图片来源](https://github.com/songlei150/gb28181) | 编辑：[Edwrd](github.com/crazybber)
