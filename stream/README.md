@@ -22,26 +22,25 @@
 
 [HLS Introduction](HTTP-Live-Streaming/Category/)
 
-## 方案
+## 方案(推流、拉流、转发与直播)
 
-### 推流、拉流与直播 
+### 常规中方式
 
 + [H5直播实现方案](https://github.com/Tiramisupxl/blog/issues/1#issue-539422139)
-
 + [了解直播技术](https://github.com/dcharlie123/learning_resource/issues/35)
-
 + [使用flv.js做直播](https://github.com/gwuhaolin/blog/issues/3#issue-229271574)
-
 + [HTML5 视频直播（一）](https://imququ.com/post/html5-live-player-1.html)
 + [HTML5 视频直播（二）](https://imququ.com/post/html5-live-player-2.html)
 + [HTML5 视频直播（三）](https://imququ.com/post/html5-live-player-3.html)
 
-### WebRTC
+
+### WebRTC方式
 
 + [使用WebRTC搭建前端视频聊天室——入门篇](https://segmentfault.com/a/1190000000436544)
 + [使用WebRTC搭建前端视频聊天室——信令篇](https://segmentfault.com/a/1190000000439103)
 + [使用WebRTC搭建前端视频聊天室——点对点通信篇](http://segmentfault.com/a/1190000000733774)
 + [使用WebRTC搭建前端视频聊天室——数据通道篇](http://segmentfault.com/a/1190000000733779)
+https://imququ.com/post/html5-live-player-3.html
 
  更多 : https://developer.mozilla.org/zh-CN/docs/Web/API
 
