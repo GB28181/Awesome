@@ -1,121 +1,131 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-    
-  部署HTTP流媒体 - 
-  
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+
+    部署HTTP流媒体 -
+
 
   </title>
   <link href="atom.xml" rel="alternate" title="" type="application/atom+xml">
-    <link rel="stylesheet" href="asset/css/foundation.min.css" />
-    <link rel="stylesheet" href="asset/css/docs.css" />
-    <script src="asset/js/vendor/modernizr.js"></script>
-    <script src="asset/js/vendor/jquery.js"></script>
+  <link rel="stylesheet" href="asset/css/foundation.min.css" />
+  <link rel="stylesheet" href="asset/css/docs.css" />
+  <script src="asset/js/vendor/modernizr.js"></script>
+  <script src="asset/js/vendor/jquery.js"></script>
   <script src="asset/highlightjs/highlight.pack.js"></script>
   <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script>hljs.initHighlightingOnLoad();</script>
 
-  </head>
-  <body class="antialiased hide-extras">
-    
-    <div class="marketing off-canvas-wrap" data-offcanvas>
-      <div class="inner-wrap">
+</head>
+
+<body class="antialiased hide-extras">
+
+  <div class="marketing off-canvas-wrap" data-offcanvas>
+    <div class="inner-wrap">
 
 
-<nav class="top-bar docs-bar hide-for-small" data-topbar>
+      <nav class="top-bar docs-bar hide-for-small" data-topbar>
 
 
-  <section class="top-bar-section">
-  <div class="row">
-      <div style="position: relative;width:100%;"><div style="position: absolute; width:100%;">
-        <ul id="main-menu" class="left">
-        <li id="menu_item_index"><a href="index.html">HOME</a></li>
-        <li id="menu_item_archives"><a href="archives.html">Archives</a></li>
-        <li id="menu_item_about"><a href="about.html">ABOUT</a></li>
+        <section class="top-bar-section">
+          <div class="row">
+            <div style="position: relative;width:100%;">
+              <div style="position: absolute; width:100%;">
+                <ul id="main-menu" class="left">
+                  <li id="menu_item_index"><a href="index.html">HOME</a></li>
+                  <li id="menu_item_archives"><a href="archives.html">Archives</a></li>
+                  <li id="menu_item_about"><a href="about.html">ABOUT</a></li>
+                </ul>
+
+                <ul class="right" id="search-wrap">
+                  <li>
+                    <form target="_blank" action="http://google.com/search" method="get">
+                      <input type="hidden" name="q" value="site:" />
+                      <input tabindex="1" type="search" name="q" placeholder="Search" />
+                    </form>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </nav>
+
+      <nav class="tab-bar show-for-small">
+        <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
+          <span> &nbsp; </span>
+        </a>
+      </nav>
+
+      <aside class="left-off-canvas-menu">
+        <ul class="off-canvas-list">
+
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="archives.html">Archives</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+
+          <li><label>Categories</label></li>
+
+
+
         </ul>
+      </aside>
 
-        <ul class="right" id="search-wrap">
-          <li>
-<form target="_blank" action="http://google.com/search" method="get">
-    <input type="hidden" name="q" value="site:" />
-    <input tabindex="1" type="search" name="q"  placeholder="Search"/>
-</form>
-</li>
-          </ul>
-      </div></div>
-  </div>
-  </section>
-
-</nav>
-
-        <nav class="tab-bar show-for-small">
-  <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
-    <span> &nbsp; </span>
-  </a>
-</nav>
-
-<aside class="left-off-canvas-menu">
-      <ul class="off-canvas-list">
-       
-       <li><a href="index.html">HOME</a></li>
-    <li><a href="archives.html">Archives</a></li>
-    <li><a href="about.html">ABOUT</a></li>
-
-    <li><label>Categories</label></li>
-
-         
-
-      </ul>
-    </aside>
-
-<a class="exit-off-canvas" href="#"></a>
+      <a class="exit-off-canvas" href="#"></a>
 
 
-        <section id="main-content" role="main" class="scroll-container">
- <script type="text/javascript">
-  $(function(){
-    $('#menu_item_index').addClass('is_active');
-  });
-</script>
-<div class="row">
-  <div class="large-8 medium-8 columns">
-      <div class="markdown-body article-wrap">
-       <div class="article">
-          
-          <h1>部署HTTP流媒体</h1>
-     
-        <div class="read-more clearfix">
-          <span class="date">2016/3/14</span>
+      <section id="main-content" role="main" class="scroll-container">
+        <script type="text/javascript">
+          $(function () {
+            $('#menu_item_index').addClass('is_active');
+          });
+        </script>
+        <div class="row">
+          <div class="large-8 medium-8 columns">
+            <div class="markdown-body article-wrap">
+              <div class="article">
 
-          
-           
-         
-          <span class="comments">
-            
+                <h1>部署HTTP流媒体</h1>
 
-            
-          </span>
+                <div class="read-more clearfix">
+                  <span class="date">2016/3/14</span>
 
-        </div>
-      </div><!-- article -->
 
-      <div class="article-content">
-      <p>要实际部署HTTP实时流，你需要创建一个浏览器的HTML网页或客户端应用程序充当接收器。您还需要使用Web服务器和一种方式将实时流编码为MPEG-2传输流或从源文件制作的H.264文件和AAC编码的MP3或MPEG-4媒体。</p>
 
-<p>您可以使用苹果提供的工具来分割流或媒体文件，并生成索引文件和变异的播放列表（见<a href="https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/UsingHTTPLiveStreaming/UsingHTTPLiveStreaming.html#//apple_ref/doc/uid/TP40008332-CH102-SW3">下载工具</a>）。</p>
 
-<p>您应该使用苹果公司提供的流媒体服务验证您的流，以确保它们与HTTP实时流完全兼容。</p>
+                  <span class="comments">
 
-<p>您可能要加密数据流，在这种情况下，你可能还需要通过HTTPS安全提供加密密钥文件，这样只有您预期的客户端可以解密。</p>
 
-<h2 id="toc_0">创建HTML页面</h2>
 
-<p>最简单分发HTTP实时流媒体的方式是创建一个包含<code>&lt;video&gt;</code>标签的的HTML5页面，<code>.M3U8</code>播放列表文件作为视频源。一个例子在下文列出。</p>
+                  </span>
 
-<pre><code>&lt;html&gt;
+                </div>
+              </div><!-- article -->
+
+              <div class="article-content">
+                <p>
+                  要实际部署HTTP实时流，你需要创建一个浏览器的HTML网页或客户端应用程序充当接收器。您还需要使用Web服务器和一种方式将实时流编码为MPEG-2传输流或从源文件制作的H.264文件和AAC编码的MP3或MPEG-4媒体。
+                </p>
+
+                <p>您可以使用苹果提供的工具来分割流或媒体文件，并生成索引文件和变异的播放列表（见<a
+                    href="https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/UsingHTTPLiveStreaming/UsingHTTPLiveStreaming.html#//apple_ref/doc/uid/TP40008332-CH102-SW3">下载工具</a>）。
+                </p>
+
+                <p>您应该使用苹果公司提供的流媒体服务验证您的流，以确保它们与HTTP实时流完全兼容。</p>
+
+                <p>您可能要加密数据流，在这种情况下，你可能还需要通过HTTPS安全提供加密密钥文件，这样只有您预期的客户端可以解密。</p>
+
+                <h2 id="toc_0">创建HTML页面</h2>
+
+                <p>
+                  最简单分发HTTP实时流媒体的方式是创建一个包含<code>&lt;video&gt;</code>标签的的HTML5页面，<code>.M3U8</code>播放列表文件作为视频源。一个例子在下文列出。
+                </p>
+
+                <pre><code>&lt;html&gt;
 &lt;head&gt;
     &lt;title&gt;HTTP Live Streaming Example&lt;/title&gt;
 &lt;/head&gt;
@@ -129,51 +139,59 @@
 &lt;/html&gt;
 </code></pre>
 
-<p>对于不支持HTML5视频元素，或不支持HTTP实时流的浏览器，您可以在<code>&lt;video&gt;</code>和<code>&lt;/video&gt;</code>之间包含后备代码。例如，您可能回落到渐进式下载影片或使用QuickTime插件的RTSP流。见<a href="https://developer.apple.com/library/ios/documentation/AudioVideo/Conceptual/Using_HTML5_Audio_Video/Introduction/Introduction.html#//apple_ref/doc/uid/TP40009523">Safari浏览器HTML5音频和视频指南</a>的例子。</p>
+                <p>
+                  对于不支持HTML5视频元素，或不支持HTTP实时流的浏览器，您可以在<code>&lt;video&gt;</code>和<code>&lt;/video&gt;</code>之间包含后备代码。例如，您可能回落到渐进式下载影片或使用QuickTime插件的RTSP流。见<a
+                    href="https://developer.apple.com/library/ios/documentation/AudioVideo/Conceptual/Using_HTML5_Audio_Video/Introduction/Introduction.html#//apple_ref/doc/uid/TP40009523">Safari浏览器HTML5音频和视频指南</a>的例子。
+                </p>
 
-<h2 id="toc_1">设置网络服务器</h2>
+                <h2 id="toc_1">设置网络服务器</h2>
 
-<p>HTTP实时流可以从一个普通的Web服务器提供服务;无需特殊配置，除了被他们的文件扩展名关联送达的MIME类型的文件。</p>
+                <p>HTTP实时流可以从一个普通的Web服务器提供服务;无需特殊配置，除了被他们的文件扩展名关联送达的MIME类型的文件。</p>
 
-<p>配置以下MIME类型HTTP实时流：</p>
+                <p>配置以下MIME类型HTTP实时流：</p>
 
-<table>
-<thead>
-<tr>
-<th>文件扩展名</th>
-<th>MIME类型</th>
-</tr>
-</thead>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>文件扩展名</th>
+                      <th>MIME类型</th>
+                    </tr>
+                  </thead>
 
-<tbody>
-<tr>
-<td>.M3U8</td>
-<td>application/x-mpegURL 或 vnd.apple.mpegURL</td>
-</tr>
-<tr>
-<td>.ts</td>
-<td>video/MP2T</td>
-</tr>
-</tbody>
-</table>
+                  <tbody>
+                    <tr>
+                      <td>.M3U8</td>
+                      <td>application/x-mpegURL 或 vnd.apple.mpegURL</td>
+                    </tr>
+                    <tr>
+                      <td>.ts</td>
+                      <td>video/MP2T</td>
+                    </tr>
+                  </tbody>
+                </table>
 
-<p>如果你的Web服务器限制于MIME类型，您可以提供MIME属性为audio/mpegURL的.m3u文件以保证兼容性。</p>
+                <p>如果你的Web服务器限制于MIME类型，您可以提供MIME属性为audio/mpegURL的.m3u文件以保证兼容性。</p>
 
-<p>索引文件可以是长期的，也可以频繁地重新下载，但它们是文本文件，并可以非常有效地压缩。您可以通过启用即时的.M3U8索引文件.GZIP压缩降低服务器开销;在HTTP实时流客户端会自动解压压缩索引文件。</p>
+                <p>索引文件可以是长期的，也可以频繁地重新下载，但它们是文本文件，并可以非常有效地压缩。您可以通过启用即时的.M3U8索引文件.GZIP压缩降低服务器开销;在HTTP实时流客户端会自动解压压缩索引文件。
+                </p>
 
-<p>有时可能需要缩短.M3U8文件的TTL值，以实现对下游web缓存适当缓存行为，因为这些文件在实况广播经常覆盖，并且对于每个下载请求应下载最新的版本。具体建议内容请与服务提供商确认。对于VOD，索引文件是静态的，只需下载一次，所以缓存是不是一个因素。</p>
+                <p>
+                  有时可能需要缩短.M3U8文件的TTL值，以实现对下游web缓存适当缓存行为，因为这些文件在实况广播经常覆盖，并且对于每个下载请求应下载最新的版本。具体建议内容请与服务提供商确认。对于VOD，索引文件是静态的，只需下载一次，所以缓存是不是一个因素。
+                </p>
 
-<h2 id="toc_2">使你的流生效</h2>
+                <h2 id="toc_2">使你的流生效</h2>
 
-<p><code>mediastreamvalidator</code>工具是用于验证HTTP实时流流和服务器的命令行实用程序（详见<a href="https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/UsingHTTPLiveStreaming/UsingHTTPLiveStreaming.html#//apple_ref/doc/uid/TP40008332-CH102-SW3">下载工具</a>）。</p>
+                <p><code>mediastreamvalidator</code>工具是用于验证HTTP实时流流和服务器的命令行实用程序（详见<a
+                    href="https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/UsingHTTPLiveStreaming/UsingHTTPLiveStreaming.html#//apple_ref/doc/uid/TP40008332-CH102-SW3">下载工具</a>）。
+                </p>
 
-<p>媒体流验证模拟的HTTP实时流媒体会话，并验证索引文件和媒体段符合HTTP实时流规范。它会执行几项检查，以确保可靠的数据流。如果发现任何错误或问题时，会显示详细的诊断报告。</p>
+                <p>媒体流验证模拟的HTTP实时流媒体会话，并验证索引文件和媒体段符合HTTP实时流规范。它会执行几项检查，以确保可靠的数据流。如果发现任何错误或问题时，会显示详细的诊断报告。</p>
 
-<p>你应该总是在提供一个新的流或备用流前运行验证器。</p>
+                <p>你应该总是在提供一个新的流或备用流前运行验证器。</p>
 
-<p>媒体流验证显示您提供流的列表，然后为每个数据流的时序结果。（这可能需要几分钟的时间来计算实际时间）下面是一个验证器的输出。</p>
+                <p>媒体流验证显示您提供流的列表，然后为每个数据流的时序结果。（这可能需要几分钟的时间来计算实际时间）下面是一个验证器的输出。</p>
 
-<pre><code>$ mediastreamvalidator -d iphone http://devimages.apple.com/iphone/samples/bipbop/gear3/prog_index.m3u8
+                <pre><code>$ mediastreamvalidator -d iphone http://devimages.apple.com/iphone/samples/bipbop/gear3/prog_index.m3u8
 
 mediastreamvalidator: Beta Version 1.1(130423)
 
@@ -206,186 +224,196 @@ Segment bitrate: Average: 509.56 kbits/sec, Max: 840.74 kbits/sec
 Average segment structural overhead: 97.49 kbits/sec (19.13 %)
 </code></pre>
 
-<p>欲了解更多信息，请参阅<a href="https://developer.apple.com/library/ios/technotes/tn2235/_index.html#//apple_ref/doc/uid/DTS40010221">流媒体验证工具的结果解释</a>。</p>
+                <p>欲了解更多信息，请参阅<a
+                    href="https://developer.apple.com/library/ios/technotes/tn2235/_index.html#//apple_ref/doc/uid/DTS40010221">流媒体验证工具的结果解释</a>。
+                </p>
 
-<h2 id="toc_3">通过HTTPS安全提供文件密钥</h2>
+                <h2 id="toc_3">通过HTTPS安全提供文件密钥</h2>
 
-<p>您可以通过加密保护媒体。文件分割器和流分段都有加密选项，你可以设定定期更改加密密钥。有你设定谁与你分享的密钥。</p>
+                <p>您可以通过加密保护媒体。文件分割器和流分段都有加密选项，你可以设定定期更改加密密钥。有你设定谁与你分享的密钥。</p>
 
-<p>密钥文件需要的初始化向量（IV），以解密加密的媒体解码。IV型可周期性地改变，就像密钥一样。目前对于尽量减少开销的建议是，每3-4小时更换密钥，每50 MB数据更换IV。</p>
+                <p>密钥文件需要的初始化向量（IV），以解密加密的媒体解码。IV型可周期性地改变，就像密钥一样。目前对于尽量减少开销的建议是，每3-4小时更换密钥，每50 MB数据更换IV。</p>
 
-<p>尽管被限制了密钥的访问，如果通过HTTP传输，密钥文件还是会被窃听者获得一份复制。一种解决方式是通过HTTPS安全地发送密钥。</p>
+                <p>尽管被限制了密钥的访问，如果通过HTTP传输，密钥文件还是会被窃听者获得一份复制。一种解决方式是通过HTTPS安全地发送密钥。</p>
 
-<p>在尝试通过HTTPS服务密钥文件前，你应该做一个测试，通过HTTP内部Web服务器提供密钥。这允许您添加HTTPS进来之前调试你的配置。一旦你有一个已知的工作系统，你就可以切换到HTTPS。</p>
+                <p>在尝试通过HTTPS服务密钥文件前，你应该做一个测试，通过HTTP内部Web服务器提供密钥。这允许您添加HTTPS进来之前调试你的配置。一旦你有一个已知的工作系统，你就可以切换到HTTPS。</p>
 
-<p>下面是通过HTTPS提供HTTP实时流密钥需要满足的三个条件：</p>
+                <p>下面是通过HTTPS提供HTTP实时流密钥需要满足的三个条件：</p>
 
-<ul>
-<li>你需要在你的HTTPS服务器上安装可信机构签署的SSL证书。</li>
-<li>密钥文件的认证域必须相同作为第一播放列表文件的认证域。做到这一点最简单的方法是为从HTTPS服务器变种播放列表文件变种播放列表文件只需下载一次，所以这应该不会造成过大的负担。其他的播放列表文件可以使用HTTP提供服务。</li>
-<li>您必须初始化自己的会话供用户进行身份验证，或者你必须在客户端存储凭据——HTTP实时流不提供进行身份验的用户对话。如果你正在编写自己的客户端应用程序，你可以存储凭据，基于Cookie桌和HTTP摘要，并提供在didReceiveAuthenticationChallenge回调的凭证（详情请参阅<a href="https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/URLLoadingSystem/Tasks/UsingNSURLConnection.html#//apple_ref/doc/uid/20001836">使用NSURLConnection</a>和<a href="https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/URLLoadingSystem/Articles/AuthenticationChallenges.html#//apple_ref/doc/uid/TP40009507">验证的挑战和TLS链验证</a>）。您提供的凭据会被缓存，并通过媒体播放器重复使用。</li>
-</ul>
+                <ul>
+                  <li>你需要在你的HTTPS服务器上安装可信机构签署的SSL证书。</li>
+                  <li>
+                    密钥文件的认证域必须相同作为第一播放列表文件的认证域。做到这一点最简单的方法是为从HTTPS服务器变种播放列表文件变种播放列表文件只需下载一次，所以这应该不会造成过大的负担。其他的播放列表文件可以使用HTTP提供服务。
+                  </li>
+                  <li>
+                    您必须初始化自己的会话供用户进行身份验证，或者你必须在客户端存储凭据——HTTP实时流不提供进行身份验的用户对话。如果你正在编写自己的客户端应用程序，你可以存储凭据，基于Cookie桌和HTTP摘要，并提供在didReceiveAuthenticationChallenge回调的凭证（详情请参阅<a
+                      href="https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/URLLoadingSystem/Tasks/UsingNSURLConnection.html#//apple_ref/doc/uid/20001836">使用NSURLConnection</a>和<a
+                      href="https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/URLLoadingSystem/Articles/AuthenticationChallenges.html#//apple_ref/doc/uid/TP40009507">验证的挑战和TLS链验证</a>）。您提供的凭据会被缓存，并通过媒体播放器重复使用。
+                  </li>
+                </ul>
 
-<blockquote>
-<p><strong>重要：</strong>你必须拥有由认证机构签发的SSL证书以使用HTTPS服务器来提供HTTP实时流</p>
-</blockquote>
+                <blockquote>
+                  <p><strong>重要：</strong>你必须拥有由认证机构签发的SSL证书以使用HTTPS服务器来提供HTTP实时流</p>
+                </blockquote>
 
-<p>如果您的HTTPS服务器没有被信任的机构签署的SSL证书，你仍然可以通过创建一个自签名的SSL证书管理局和服务器叶证书测试您的设置。将需要认证的证书附加到电子邮件，发送给你想作为一个直播客户端的设备，并点击邮件中的附件，使设备信任服务器。<br/>
-一个例子记录在<a href="https://developer.apple.com/library/ios/documentation/AudioVideo/Conceptual/HLS_Sample_Encryption/Intro/Intro.html#//apple_ref/doc/uid/TP40012862">HTTP实时流中的MPEG-2流加密格式</a></p>
+                <p>
+                  如果您的HTTPS服务器没有被信任的机构签署的SSL证书，你仍然可以通过创建一个自签名的SSL证书管理局和服务器叶证书测试您的设置。将需要认证的证书附加到电子邮件，发送给你想作为一个直播客户端的设备，并点击邮件中的附件，使设备信任服务器。<br />
+                  一个例子记录在<a
+                    href="https://developer.apple.com/library/ios/documentation/AudioVideo/Conceptual/HLS_Sample_Encryption/Intro/Intro.html#//apple_ref/doc/uid/TP40012862">HTTP实时流中的MPEG-2流加密格式</a>
+                </p>
 
-      </div>
+              </div>
 
-      <div class="row">
-        <div class="large-6 columns">
-        <p class="text-left" style="padding:15px 0px;">
-      
-          <a href="14579526400842.html" 
-          title="Previous Post: 使用HTTP流媒体">&laquo; 使用HTTP流媒体</a>
-      
-        </p>
-        </div>
-        <div class="large-6 columns">
-      <p class="text-right" style="padding:15px 0px;">
-      
-          <a  href="14574344524904.html" 
-          title="Next Post: 常见问题">常见问题 &raquo;</a>
-      
-      </p>
-        </div>
-      </div>
-      <div class="comments-wrap">
-        <div class="share-comments">
-          
+              <div class="row">
+                <div class="large-6 columns">
+                  <p class="text-left" style="padding:15px 0px;">
 
-          
+                    <a href="14579526400842.html" title="Previous Post: 使用HTTP流媒体">&laquo; 使用HTTP流媒体</a>
 
-          
-        </div>
-      </div>
-    </div><!-- article-wrap -->
-  </div><!-- large 8 -->
-
-
-
-
- <div class="large-4 medium-4 columns">
-  <div class="hide-for-small">
-    <div id="sidebar" class="sidebar">
-          <div id="site-info" class="site-info">
-            
-                <h1></h1>
-                <div class="site-des"></div>
-                <div class="social">
-
-
-
-
-
-
-
-
-
-
-
-  <a class="rss" href="atom.xml" title="RSS">RSS</a>
-                
-              	 </div>
-          	</div>
-              <div id="site-categories" class="side-item ">
-                <div class="side-header">
-                  <h2>Categories</h2>
+                  </p>
                 </div>
-                <div class="side-content">
+                <div class="large-6 columns">
+                  <p class="text-right" style="padding:15px 0px;">
 
-      	<p class="cat-list">
-         
-        </p>
+                    <a href="14574344524904.html" title="Next Post: 常见问题">常见问题 &raquo;</a>
+
+                  </p>
+                </div>
+              </div>
+              <div class="comments-wrap">
+                <div class="share-comments">
+
+
+
 
 
                 </div>
               </div>
+            </div><!-- article-wrap -->
+          </div><!-- large 8 -->
 
-              <div id="site-categories" class="side-item">
-                <div class="side-header">
-                  <h2>Recent Posts</h2>
+
+
+
+          <div class="large-4 medium-4 columns">
+            <div class="hide-for-small">
+              <div id="sidebar" class="sidebar">
+                <div id="site-info" class="site-info">
+
+                  <h1></h1>
+                  <div class="site-des"></div>
+                  <div class="social">
+
+
+
+
+
+
+
+
+
+
+
+                    <a class="rss" href="atom.xml" title="RSS">RSS</a>
+
+                  </div>
                 </div>
-                <div class="side-content">
-                <ul class="posts-list">
-	      
-		      
-			      <li class="post">
-			        <a href="14579526411881.html">简介</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14579526408120.html">HTTP串流结构</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14579526400842.html">使用HTTP流媒体</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14579524844266.html">部署HTTP流媒体</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14574344524904.html">常见问题</a>
-			      </li>
-		     
-		   
-		  		</ul>
+                <div id="site-categories" class="side-item ">
+                  <div class="side-header">
+                    <h2>Categories</h2>
+                  </div>
+                  <div class="side-content">
+
+                    <p class="cat-list">
+
+                    </p>
+
+
+                  </div>
                 </div>
-              </div>
-        </div><!-- sidebar -->
-      </div><!-- hide for small -->
-</div><!-- large 4 -->
 
-</div><!-- row -->
+                <div id="site-categories" class="side-item">
+                  <div class="side-header">
+                    <h2>Recent Posts</h2>
+                  </div>
+                  <div class="side-content">
+                    <ul class="posts-list">
 
- <div class="page-bottom clearfix">
-  <div class="row">
-   <p class="copyright">Copyright &copy; 2015
-Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a>,&nbsp; 
-Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
-  </div>
-</div>
 
-        </section>
-      </div>
+                      <li class="post">
+                        <a href="14579526411881.html">简介</a>
+                      </li>
+
+
+
+                      <li class="post">
+                        <a href="14579526408120.html">HTTP串流结构</a>
+                      </li>
+
+
+
+                      <li class="post">
+                        <a href="14579526400842.html">使用HTTP流媒体</a>
+                      </li>
+
+
+
+                      <li class="post">
+                        <a href="14579524844266.html">部署HTTP流媒体</a>
+                      </li>
+
+
+
+                      <li class="post">
+                        <a href="14574344524904.html">常见问题</a>
+                      </li>
+
+
+                    </ul>
+                  </div>
+                </div>
+              </div><!-- sidebar -->
+            </div><!-- hide for small -->
+          </div><!-- large 4 -->
+
+        </div><!-- row -->
+
+        <div class="page-bottom clearfix">
+          <div class="row">
+            <p class="copyright">Copyright &copy; 2015
+              Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a>,&nbsp;
+              Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
+          </div>
+        </div>
+
+      </section>
     </div>
-
-  
-    
-
-    <script src="asset/js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-      function fixSidebarHeight(){
-        var w1 = $('.markdown-body').height();
-          var w2 = $('#sidebar').height();
-          if (w1 > w2) { $('#sidebar').height(w1); };
-      }
-      $(function(){
-        fixSidebarHeight();
-      })
-      $(window).load(function(){
-          fixSidebarHeight();
-      });
-     
-    </script>
-
-    
+  </div>
 
 
 
-  </body>
+
+  <script src="asset/js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+    function fixSidebarHeight() {
+      var w1 = $('.markdown-body').height();
+      var w2 = $('#sidebar').height();
+      if (w1 > w2) { $('#sidebar').height(w1); };
+    }
+    $(function () {
+      fixSidebarHeight();
+    })
+    $(window).load(function () {
+      fixSidebarHeight();
+    });
+
+  </script>
+
+
+
+
+
+</body>
+
 </html>

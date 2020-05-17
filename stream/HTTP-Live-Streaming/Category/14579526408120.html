@@ -1,175 +1,203 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-    
-  HTTP串流结构 - 
-  
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+
+    HTTP串流结构 -
+
 
   </title>
   <link href="atom.xml" rel="alternate" title="" type="application/atom+xml">
-    <link rel="stylesheet" href="asset/css/foundation.min.css" />
-    <link rel="stylesheet" href="asset/css/docs.css" />
-    <script src="asset/js/vendor/modernizr.js"></script>
-    <script src="asset/js/vendor/jquery.js"></script>
+  <link rel="stylesheet" href="asset/css/foundation.min.css" />
+  <link rel="stylesheet" href="asset/css/docs.css" />
+  <script src="asset/js/vendor/modernizr.js"></script>
+  <script src="asset/js/vendor/jquery.js"></script>
   <script src="asset/highlightjs/highlight.pack.js"></script>
   <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script>hljs.initHighlightingOnLoad();</script>
 
-  </head>
-  <body class="antialiased hide-extras">
-    
-    <div class="marketing off-canvas-wrap" data-offcanvas>
-      <div class="inner-wrap">
+</head>
+
+<body class="antialiased hide-extras">
+
+  <div class="marketing off-canvas-wrap" data-offcanvas>
+    <div class="inner-wrap">
 
 
-<nav class="top-bar docs-bar hide-for-small" data-topbar>
+      <nav class="top-bar docs-bar hide-for-small" data-topbar>
 
 
-  <section class="top-bar-section">
-  <div class="row">
-      <div style="position: relative;width:100%;"><div style="position: absolute; width:100%;">
-        <ul id="main-menu" class="left">
-        <li id="menu_item_index"><a href="index.html">HOME</a></li>
-        <li id="menu_item_archives"><a href="archives.html">Archives</a></li>
-        <li id="menu_item_about"><a href="about.html">ABOUT</a></li>
+        <section class="top-bar-section">
+          <div class="row">
+            <div style="position: relative;width:100%;">
+              <div style="position: absolute; width:100%;">
+                <ul id="main-menu" class="left">
+                  <li id="menu_item_index"><a href="index.html">HOME</a></li>
+                  <li id="menu_item_archives"><a href="archives.html">Archives</a></li>
+                  <li id="menu_item_about"><a href="about.html">ABOUT</a></li>
+                </ul>
+
+                <ul class="right" id="search-wrap">
+                  <li>
+                    <form target="_blank" action="http://google.com/search" method="get">
+                      <input type="hidden" name="q" value="site:" />
+                      <input tabindex="1" type="search" name="q" placeholder="Search" />
+                    </form>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </nav>
+
+      <nav class="tab-bar show-for-small">
+        <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
+          <span> &nbsp; </span>
+        </a>
+      </nav>
+
+      <aside class="left-off-canvas-menu">
+        <ul class="off-canvas-list">
+
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="archives.html">Archives</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+
+          <li><label>Categories</label></li>
+
+
+
         </ul>
+      </aside>
 
-        <ul class="right" id="search-wrap">
-          <li>
-<form target="_blank" action="http://google.com/search" method="get">
-    <input type="hidden" name="q" value="site:" />
-    <input tabindex="1" type="search" name="q"  placeholder="Search"/>
-</form>
-</li>
-          </ul>
-      </div></div>
-  </div>
-  </section>
-
-</nav>
-
-        <nav class="tab-bar show-for-small">
-  <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
-    <span> &nbsp; </span>
-  </a>
-</nav>
-
-<aside class="left-off-canvas-menu">
-      <ul class="off-canvas-list">
-       
-       <li><a href="index.html">HOME</a></li>
-    <li><a href="archives.html">Archives</a></li>
-    <li><a href="about.html">ABOUT</a></li>
-
-    <li><label>Categories</label></li>
-
-         
-
-      </ul>
-    </aside>
-
-<a class="exit-off-canvas" href="#"></a>
+      <a class="exit-off-canvas" href="#"></a>
 
 
-        <section id="main-content" role="main" class="scroll-container">
- <script type="text/javascript">
-  $(function(){
-    $('#menu_item_index').addClass('is_active');
-  });
-</script>
-<div class="row">
-  <div class="large-8 medium-8 columns">
-      <div class="markdown-body article-wrap">
-       <div class="article">
-          
-          <h1>HTTP串流结构</h1>
-     
-        <div class="read-more clearfix">
-          <span class="date">2016/3/14</span>
+      <section id="main-content" role="main" class="scroll-container">
+        <script type="text/javascript">
+          $(function () {
+            $('#menu_item_index').addClass('is_active');
+          });
+        </script>
+        <div class="row">
+          <div class="large-8 medium-8 columns">
+            <div class="markdown-body article-wrap">
+              <div class="article">
 
-          
-           
-         
-          <span class="comments">
-            
+                <h1>HTTP串流结构</h1>
 
-            
-          </span>
+                <div class="read-more clearfix">
+                  <span class="date">2016/3/14</span>
 
-        </div>
-      </div><!-- article -->
 
-      <div class="article-content">
-      <p>HTTP流媒体允许你从普通网络服务器传送实时或者预先录制的音频或视频到任何运行iOS3.0及更高版本的设备（包括iPad和Apple TV）或者任何安装了Safari 4.0或更高版本的电脑。串流同时包含有加密和认证支持。</p>
 
-<h2 id="toc_0">概览</h2>
 
-<p>概念上，HTTP流媒体由三部分组成：服务器组件，分发组件，客户端软件。</p>
+                  <span class="comments">
 
-<p><strong>服务器组件</strong>负责取得媒体的输入流并且将其编码，转换成适合传输的格式，然后为分发准备转换好的媒体数据。</p>
 
-<p><strong>分发组件</strong>由标准网络服务器组成。它们负责接收客户端请求并向客户端分发准备好的媒体数据和关联资源。对于大规模的分发，边际网络或者其他内容分发网络也可以被使用。</p>
 
-<p><strong>客户端软件</strong>负责确定需要请求的媒体数据，下载这些资源，然后将其重新组合以保证能够展示给用户完整的串流。客户端软件包含在iOS 3.0及更高版本和安装了Safari 4.0及更高版本的电脑上。</p>
+                  </span>
 
-<p>在典型的配置中，硬件编码器接受音频-视频输入，编码为H.264视频和AAC音频，然后以MPEG-2<br/>
-传输流输出。这个传输流将会被流分段软件分为一系列的小媒体文件。这些媒体文件会被放置在网络服务器上。分段器同时创建并维护一个包含这些媒体文件列表的索引。这份索引的链接会在网络服务器上被发布。客户端软件读取索引，然后按顺序请求列表上的媒体文件然后不间断的播放媒体片段。</p>
+                </div>
+              </div><!-- article -->
 
-<p>一个简单的HTTP串流配置如图1-1。</p>
+              <div class="article-content">
+                <p>HTTP流媒体允许你从普通网络服务器传送实时或者预先录制的音频或视频到任何运行iOS3.0及更高版本的设备（包括iPad和Apple TV）或者任何安装了Safari
+                  4.0或更高版本的电脑。串流同时包含有加密和认证支持。</p>
 
-<p><em>图1-1</em><br/>
-<img src="https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/art/transport_stream_2x.png" alt="Figure 1-1"/></p>
+                <h2 id="toc_0">概览</h2>
 
-<p>输入可以是实时的或者是一个预先录制好的源。典型的编码是MPEG-4（H.264视频和AAC音频），并由已有的硬件封装为MPEG-2传输流。该MPEG-2传输流之后会被分成若干段并被保存为一系列的<code>.ts</code>媒体文件。这项工作可以借助例如Apple stream segmenter这类软件完成。</p>
+                <p>概念上，HTTP流媒体由三部分组成：服务器组件，分发组件，客户端软件。</p>
 
-<p>仅包含音频的串流可以是一系列的MPEG基本音频文件。编码包括含ADTS头的AAC、MP3和AC-3。</p>
+                <p><strong>服务器组件</strong>负责取得媒体的输入流并且将其编码，转换成适合传输的格式，然后为分发准备转换好的媒体数据。</p>
 
-<p>分段器同时会创建一个索引文件。索引文件包含一个媒体文件列表，同时还保存有元数据。这份索引是一个<code>.M3U8</code>播放列表文件。索引文件的链接经由客户端访问，之后客户端会按序请求被索引的文件。</p>
+                <p><strong>分发组件</strong>由标准网络服务器组成。它们负责接收客户端请求并向客户端分发准备好的媒体数据和关联资源。对于大规模的分发，边际网络或者其他内容分发网络也可以被使用。</p>
 
-<h2 id="toc_1">服务器组件</h2>
+                <p><strong>客户端软件</strong>负责确定需要请求的媒体数据，下载这些资源，然后将其重新组合以保证能够展示给用户完整的串流。客户端软件包含在iOS 3.0及更高版本和安装了Safari
+                  4.0及更高版本的电脑上。</p>
 
-<p>服务器需要有一个媒体编码器（可以是现有的硬件），以及能够将编码过的媒体文件分歌声段并存储为文件的方法。这种方法可以是如Apple提供的媒体流分段器软件，或者一个完整的第三方解决方案。</p>
+                <p>在典型的配置中，硬件编码器接受音频-视频输入，编码为H.264视频和AAC音频，然后以MPEG-2<br />
+                  传输流输出。这个传输流将会被流分段软件分为一系列的小媒体文件。这些媒体文件会被放置在网络服务器上。分段器同时创建并维护一个包含这些媒体文件列表的索引。这份索引的链接会在网络服务器上被发布。客户端软件读取索引，然后按顺序请求列表上的媒体文件然后不间断的播放媒体片段。
+                </p>
 
-<h3 id="toc_2">媒体编码器</h3>
+                <p>一个简单的HTTP串流配置如图1-1。</p>
 
-<p>媒体编码器从音频-视频设备接收实时信号，将媒体编码并为传输做好包装。编码应该被设定为客户端设备支持的格式，如H.264视频和HE-AAC音频。现阶段支持的传输格式为MPEG-2视频-音频传输流，及仅音频的MPEG简单流。</p>
+                <p><em>图1-1</em><br />
+                  <img
+                    src="https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/art/transport_stream_2x.png"
+                    alt="Figure 1-1" /></p>
 
-<p>编码器通过本地网络将编码过的媒体以MPEG-2传输流发送给流分段器。MPEG-2传输流不应与MPEG-2视频压缩格式相混淆。传输流是可以使用多种不同压缩格式包装格式。<a href="https://developer.apple.com/library/ios/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/MediaLayer/MediaLayer.html#//apple_ref/doc/uid/TP40007898-CH9-SW6">视频技术</a>和<a href="https://developer.apple.com/library/ios/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/MediaLayer/MediaLayer.html#//apple_ref/doc/uid/TP40007898-CH9-SW2">音频技术</a>列出了支持的压缩格式</p>
+                <p>
+                  输入可以是实时的或者是一个预先录制好的源。典型的编码是MPEG-4（H.264视频和AAC音频），并由已有的硬件封装为MPEG-2传输流。该MPEG-2传输流之后会被分成若干段并被保存为一系列的<code>.ts</code>媒体文件。这项工作可以借助例如Apple
+                  stream segmenter这类软件完成。</p>
 
-<blockquote>
-<p><strong>重要：</strong> 视频编码器不应该在编码中更改诸如视频尺寸或编译码器类型等串流设置。如果更改设置不可避免，则务必只在段的边界时更改设置，并且比如为下一个段设置<code>EXT-X-DISCONTINUITY</code>标签。</p>
-</blockquote>
+                <p>仅包含音频的串流可以是一系列的MPEG基本音频文件。编码包括含ADTS头的AAC、MP3和AC-3。</p>
 
-<h3 id="toc_3">流分段器</h3>
+                <p>
+                  分段器同时会创建一个索引文件。索引文件包含一个媒体文件列表，同时还保存有元数据。这份索引是一个<code>.M3U8</code>播放列表文件。索引文件的链接经由客户端访问，之后客户端会按序请求被索引的文件。
+                </p>
 
-<p>流分段器是一个从本地网络读取传输流并将其分成一系列等长的小媒体文件的软件。尽管每个段是独立的文件，这个视频文件是从一个可以被无缝重建为一个持续的流被建立的。</p>
+                <h2 id="toc_1">服务器组件</h2>
 
-<p>分段器同时会创建一个包含每个独立媒体文件的索引。每当分段器完成一个新媒体文件的创建，索引文件就会被更新。索引文件用于追踪媒体文件的的可用性和存放位置。分段器在分段流程中同时可以对每个媒体段进行加密并创建一个密钥文件。</p>
+                <p>服务器需要有一个媒体编码器（可以是现有的硬件），以及能够将编码过的媒体文件分歌声段并存储为文件的方法。这种方法可以是如Apple提供的媒体流分段器软件，或者一个完整的第三方解决方案。</p>
 
-<p>媒体段文件被保存为<code>.ts</code>文件（MPEG-2传输流文件）。索引文件被保存为<code>.M3U8</code>播放列表。</p>
+                <h3 id="toc_2">媒体编码器</h3>
 
-<h3 id="toc_4">文件分段器</h3>
+                <p>
+                  媒体编码器从音频-视频设备接收实时信号，将媒体编码并为传输做好包装。编码应该被设定为客户端设备支持的格式，如H.264视频和HE-AAC音频。现阶段支持的传输格式为MPEG-2视频-音频传输流，及仅音频的MPEG简单流。
+                </p>
 
-<p>如果你已经有了使用被支持的编码器编码过的媒体文件，此时可以使用文件分段器将其包装为MPEG-2传输流并分成等长的小段。文件分段器允许你使用现有的音频和视频文件库通过HTTP流媒体来传输视频。文件分段器所作的任务与流分段器相同，只是输入从流变为了文件。</p>
+                <p>编码器通过本地网络将编码过的媒体以MPEG-2传输流发送给流分段器。MPEG-2传输流不应与MPEG-2视频压缩格式相混淆。传输流是可以使用多种不同压缩格式包装格式。<a
+                    href="https://developer.apple.com/library/ios/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/MediaLayer/MediaLayer.html#//apple_ref/doc/uid/TP40007898-CH9-SW6">视频技术</a>和<a
+                    href="https://developer.apple.com/library/ios/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/MediaLayer/MediaLayer.html#//apple_ref/doc/uid/TP40007898-CH9-SW2">音频技术</a>列出了支持的压缩格式
+                </p>
 
-<h2 id="toc_5">媒体段文件</h2>
+                <blockquote>
+                  <p><strong>重要：</strong>
+                    视频编码器不应该在编码中更改诸如视频尺寸或编译码器类型等串流设置。如果更改设置不可避免，则务必只在段的边界时更改设置，并且比如为下一个段设置<code>EXT-X-DISCONTINUITY</code>标签。
+                  </p>
+                </blockquote>
 
-<p>媒体段文件通常基于编码器的输入由流分段器产生，包含一系列含有MPEG-2传输流小段的<code>.ts</code>文件。该传输流编码为H.264视频和AAC/MP3/AC-3音频。对于仅音频的广播，分段器可以创建简单音频流，编码包括带ADTS头的AAC、MP3和AC-3。</p>
+                <h3 id="toc_3">流分段器</h3>
 
-<h2 id="toc_6">索引文件（播放列表）</h2>
+                <p>流分段器是一个从本地网络读取传输流并将其分成一系列等长的小媒体文件的软件。尽管每个段是独立的文件，这个视频文件是从一个可以被无缝重建为一个持续的流被建立的。</p>
 
-<p>索引文件通常由流分段器和文件分段器产生，以<code>.M3U8</code>播放列表格式存储。<code>M3U8</code>是一个用于MP3播放列表的<code>.m3u</code>的扩展格式。</p>
+                <p>
+                  分段器同时会创建一个包含每个独立媒体文件的索引。每当分段器完成一个新媒体文件的创建，索引文件就会被更新。索引文件用于追踪媒体文件的的可用性和存放位置。分段器在分段流程中同时可以对每个媒体段进行加密并创建一个密钥文件。
+                </p>
 
-<blockquote>
-<p>备注：由于索引文件是<code>.m3u</code>格式的扩展，以及系统同时支持<code>.mp3</code>音频媒体文件，客户端软件同时也可能兼容用于网络广播串流的普通MP3播放列表。</p>
-</blockquote>
+                <p>媒体段文件被保存为<code>.ts</code>文件（MPEG-2传输流文件）。索引文件被保存为<code>.M3U8</code>播放列表。</p>
 
-<p>下面是一个<code>.M3U8</code>格式索引文件的简单例子。例子中分段器从一个完整的流创建了三个未加密的10秒长度的媒体文件。</p>
+                <h3 id="toc_4">文件分段器</h3>
 
-<pre><code>#EXT-X-VERSION:3
+                <p>
+                  如果你已经有了使用被支持的编码器编码过的媒体文件，此时可以使用文件分段器将其包装为MPEG-2传输流并分成等长的小段。文件分段器允许你使用现有的音频和视频文件库通过HTTP流媒体来传输视频。文件分段器所作的任务与流分段器相同，只是输入从流变为了文件。
+                </p>
+
+                <h2 id="toc_5">媒体段文件</h2>
+
+                <p>
+                  媒体段文件通常基于编码器的输入由流分段器产生，包含一系列含有MPEG-2传输流小段的<code>.ts</code>文件。该传输流编码为H.264视频和AAC/MP3/AC-3音频。对于仅音频的广播，分段器可以创建简单音频流，编码包括带ADTS头的AAC、MP3和AC-3。
+                </p>
+
+                <h2 id="toc_6">索引文件（播放列表）</h2>
+
+                <p>索引文件通常由流分段器和文件分段器产生，以<code>.M3U8</code>播放列表格式存储。<code>M3U8</code>是一个用于MP3播放列表的<code>.m3u</code>的扩展格式。
+                </p>
+
+                <blockquote>
+                  <p>备注：由于索引文件是<code>.m3u</code>格式的扩展，以及系统同时支持<code>.mp3</code>音频媒体文件，客户端软件同时也可能兼容用于网络广播串流的普通MP3播放列表。
+                  </p>
+                </blockquote>
+
+                <p>下面是一个<code>.M3U8</code>格式索引文件的简单例子。例子中分段器从一个完整的流创建了三个未加密的10秒长度的媒体文件。</p>
+
+                <pre><code>#EXT-X-VERSION:3
 #EXTM3U
 #EXT-X-TARGETDURATION:10
 #EXT-X-MEDIA-SEQUENCE:1
@@ -186,185 +214,197 @@ http://media.example.com/segment2.ts
 #EXT-X-ENDLIST
 </code></pre>
 
-<p>为了保证最大的精确度，当你向支持版本3及更高的协议的客户端传送播放列表时应该将所有持续时间设置为浮点数（较老版本客户端仅支持整形变量）。当你使用浮点数时，必须执行协议版本，否则应该遵守协议版本1。</p>
+                <p>为了保证最大的精确度，当你向支持版本3及更高的协议的客户端传送播放列表时应该将所有持续时间设置为浮点数（较老版本客户端仅支持整形变量）。当你使用浮点数时，必须执行协议版本，否则应该遵守协议版本1。
+                </p>
 
-<blockquote>
-<p>备注：你可以使用Apple提供的分段器并以MPEG-4视频或者AAC/MP3音频作为源来产生一系列示例播放列表。详情请见<a href="https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/UsingHTTPLiveStreaming/UsingHTTPLiveStreaming.html#//apple_ref/doc/uid/TP40008332-CH102-SW7">媒体分段器</a>。</p>
-</blockquote>
+                <blockquote>
+                  <p>备注：你可以使用Apple提供的分段器并以MPEG-4视频或者AAC/MP3音频作为源来产生一系列示例播放列表。详情请见<a
+                      href="https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/UsingHTTPLiveStreaming/UsingHTTPLiveStreaming.html#//apple_ref/doc/uid/TP40008332-CH102-SW7">媒体分段器</a>。
+                  </p>
+                </blockquote>
 
-<p>索引文件同时也可能包含加密密钥文件和为不同带宽准备的其他索引文件的链接。关于索引文件格式的详情，请参见IETF的互联网草案：<a href="http://tools.ietf.org/html/draft-pantos-http-live-streaming">HTTP Live Streaming specification</a>。</p>
+                <p>索引文件同时也可能包含加密密钥文件和为不同带宽准备的其他索引文件的链接。关于索引文件格式的详情，请参见IETF的互联网草案：<a
+                    href="http://tools.ietf.org/html/draft-pantos-http-live-streaming">HTTP Live Streaming
+                    specification</a>。</p>
 
-<p>索引文件通常由创建媒体段文件的分段器同时生成。或者只要符合已发布的规范，即可独立创建<code>.M3U8</code>文件和媒体段文件。例如对于仅音频的广播，你可以通过文本编辑器创建<code>.M3U8</code>文件并李处一系列现存的<code>.MP3</code>文件。</p>
+                <p>
+                  索引文件通常由创建媒体段文件的分段器同时生成。或者只要符合已发布的规范，即可独立创建<code>.M3U8</code>文件和媒体段文件。例如对于仅音频的广播，你可以通过文本编辑器创建<code>.M3U8</code>文件并李处一系列现存的<code>.MP3</code>文件。
+                </p>
 
-<h2 id="toc_7">分发组件</h2>
+                <h2 id="toc_7">分发组件</h2>
 
-<p>分发系统是一个通过HTTP向客户端媒体文件和索引文件的网络服务器或者网络缓存系统。传输内容不需要定制化的服务器模块，并且不需要对服务器进行大量设置。</p>
+                <p>分发系统是一个通过HTTP向客户端媒体文件和索引文件的网络服务器或者网络缓存系统。传输内容不需要定制化的服务器模块，并且不需要对服务器进行大量设置。</p>
 
-<p>推荐配置一般仅限于指定<code>.M3U8</code>和<code>.MP3</code>文件的MIME类型关联。</p>
+                <p>推荐配置一般仅限于指定<code>.M3U8</code>和<code>.MP3</code>文件的MIME类型关联。</p>
 
-<p>详情请见<a href="https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/DeployingHTTPLiveStreaming/DeployingHTTPLiveStreaming.html#//apple_ref/doc/uid/TP40008332-CH2-SW3">部署HTTP流媒体</a>。</p>
+                <p>详情请见<a
+                    href="https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/DeployingHTTPLiveStreaming/DeployingHTTPLiveStreaming.html#//apple_ref/doc/uid/TP40008332-CH2-SW3">部署HTTP流媒体</a>。
+                </p>
 
-<h2 id="toc_8">客户端组件</h2>
+                <h2 id="toc_8">客户端组件</h2>
 
-<p>客户端软件基于标志了流的链接来获取索引文件。索引文件按序表明有效媒体文件位置、解密密钥和是否有其他的有效的源可供使用。对于选定的串流，客户端下载按队列下载每个可用的媒体文件。每个文件包含串流的连续段。当客户端下载了足够的数据之后会将重新组合的流播放给用户。</p>
+                <p>
+                  客户端软件基于标志了流的链接来获取索引文件。索引文件按序表明有效媒体文件位置、解密密钥和是否有其他的有效的源可供使用。对于选定的串流，客户端下载按队列下载每个可用的媒体文件。每个文件包含串流的连续段。当客户端下载了足够的数据之后会将重新组合的流播放给用户。
+                </p>
 
-<p>客户端有责任获取解密密钥、认证或为认证提供用户交互界面以及按需解密媒体文件。</p>
+                <p>客户端有责任获取解密密钥、认证或为认证提供用户交互界面以及按需解密媒体文件。</p>
 
-<p>这个流程会持续知道客户端在索引文件中检测到了<code>#EXT-X-ENDLIST</code>标签。如果<code>#EXT-X-ENDLIST</code>标签没有出现，这个索引文件是一个持续广播的一部分。在持续广播中，客户端会周期性加载更新版本的索引文件。之后会在更新过的索引文件中寻找心的媒体文件和解密密钥并将这些链接加入下载队列。</p>
+                <p>
+                  这个流程会持续知道客户端在索引文件中检测到了<code>#EXT-X-ENDLIST</code>标签。如果<code>#EXT-X-ENDLIST</code>标签没有出现，这个索引文件是一个持续广播的一部分。在持续广播中，客户端会周期性加载更新版本的索引文件。之后会在更新过的索引文件中寻找心的媒体文件和解密密钥并将这些链接加入下载队列。
+                </p>
 
-      </div>
+              </div>
 
-      <div class="row">
-        <div class="large-6 columns">
-        <p class="text-left" style="padding:15px 0px;">
-      
-          <a href="14579526411881.html" 
-          title="Previous Post: 简介">&laquo; 简介</a>
-      
-        </p>
-        </div>
-        <div class="large-6 columns">
-      <p class="text-right" style="padding:15px 0px;">
-      
-          <a  href="14579526400842.html" 
-          title="Next Post: 使用HTTP流媒体">使用HTTP流媒体 &raquo;</a>
-      
-      </p>
-        </div>
-      </div>
-      <div class="comments-wrap">
-        <div class="share-comments">
-          
+              <div class="row">
+                <div class="large-6 columns">
+                  <p class="text-left" style="padding:15px 0px;">
 
-          
+                    <a href="14579526411881.html" title="Previous Post: 简介">&laquo; 简介</a>
 
-          
-        </div>
-      </div>
-    </div><!-- article-wrap -->
-  </div><!-- large 8 -->
-
-
-
-
- <div class="large-4 medium-4 columns">
-  <div class="hide-for-small">
-    <div id="sidebar" class="sidebar">
-          <div id="site-info" class="site-info">
-            
-                <h1></h1>
-                <div class="site-des"></div>
-                <div class="social">
-
-
-
-
-
-
-
-
-
-
-
-  <a class="rss" href="atom.xml" title="RSS">RSS</a>
-                
-              	 </div>
-          	</div>
-              <div id="site-categories" class="side-item ">
-                <div class="side-header">
-                  <h2>Categories</h2>
+                  </p>
                 </div>
-                <div class="side-content">
+                <div class="large-6 columns">
+                  <p class="text-right" style="padding:15px 0px;">
 
-      	<p class="cat-list">
-         
-        </p>
+                    <a href="14579526400842.html" title="Next Post: 使用HTTP流媒体">使用HTTP流媒体 &raquo;</a>
+
+                  </p>
+                </div>
+              </div>
+              <div class="comments-wrap">
+                <div class="share-comments">
+
+
+
 
 
                 </div>
               </div>
+            </div><!-- article-wrap -->
+          </div><!-- large 8 -->
 
-              <div id="site-categories" class="side-item">
-                <div class="side-header">
-                  <h2>Recent Posts</h2>
+
+
+
+          <div class="large-4 medium-4 columns">
+            <div class="hide-for-small">
+              <div id="sidebar" class="sidebar">
+                <div id="site-info" class="site-info">
+
+                  <h1></h1>
+                  <div class="site-des"></div>
+                  <div class="social">
+
+
+
+
+
+
+
+
+
+
+
+                    <a class="rss" href="atom.xml" title="RSS">RSS</a>
+
+                  </div>
                 </div>
-                <div class="side-content">
-                <ul class="posts-list">
-	      
-		      
-			      <li class="post">
-			        <a href="14579526411881.html">简介</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14579526408120.html">HTTP串流结构</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14579526400842.html">使用HTTP流媒体</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14579524844266.html">部署HTTP流媒体</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="14574344524904.html">常见问题</a>
-			      </li>
-		     
-		   
-		  		</ul>
+                <div id="site-categories" class="side-item ">
+                  <div class="side-header">
+                    <h2>Categories</h2>
+                  </div>
+                  <div class="side-content">
+
+                    <p class="cat-list">
+
+                    </p>
+
+
+                  </div>
                 </div>
-              </div>
-        </div><!-- sidebar -->
-      </div><!-- hide for small -->
-</div><!-- large 4 -->
 
-</div><!-- row -->
+                <div id="site-categories" class="side-item">
+                  <div class="side-header">
+                    <h2>Recent Posts</h2>
+                  </div>
+                  <div class="side-content">
+                    <ul class="posts-list">
 
- <div class="page-bottom clearfix">
-  <div class="row">
-   <p class="copyright">Copyright &copy; 2015
-Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a>,&nbsp; 
-Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
-  </div>
-</div>
 
-        </section>
-      </div>
+                      <li class="post">
+                        <a href="14579526411881.html">简介</a>
+                      </li>
+
+
+
+                      <li class="post">
+                        <a href="14579526408120.html">HTTP串流结构</a>
+                      </li>
+
+
+
+                      <li class="post">
+                        <a href="14579526400842.html">使用HTTP流媒体</a>
+                      </li>
+
+
+
+                      <li class="post">
+                        <a href="14579524844266.html">部署HTTP流媒体</a>
+                      </li>
+
+
+
+                      <li class="post">
+                        <a href="14574344524904.html">常见问题</a>
+                      </li>
+
+
+                    </ul>
+                  </div>
+                </div>
+              </div><!-- sidebar -->
+            </div><!-- hide for small -->
+          </div><!-- large 4 -->
+
+        </div><!-- row -->
+
+        <div class="page-bottom clearfix">
+          <div class="row">
+            <p class="copyright">Copyright &copy; 2015
+              Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a>,&nbsp;
+              Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
+          </div>
+        </div>
+
+      </section>
     </div>
-
-  
-    
-
-    <script src="asset/js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-      function fixSidebarHeight(){
-        var w1 = $('.markdown-body').height();
-          var w2 = $('#sidebar').height();
-          if (w1 > w2) { $('#sidebar').height(w1); };
-      }
-      $(function(){
-        fixSidebarHeight();
-      })
-      $(window).load(function(){
-          fixSidebarHeight();
-      });
-     
-    </script>
-
-    
+  </div>
 
 
 
-  </body>
+
+  <script src="asset/js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+    function fixSidebarHeight() {
+      var w1 = $('.markdown-body').height();
+      var w2 = $('#sidebar').height();
+      if (w1 > w2) { $('#sidebar').height(w1); };
+    }
+    $(function () {
+      fixSidebarHeight();
+    })
+    $(window).load(function () {
+      fixSidebarHeight();
+    });
+
+  </script>
+
+
+
+
+
+</body>
+
 </html>
