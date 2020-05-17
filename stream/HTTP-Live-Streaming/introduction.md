@@ -35,8 +35,7 @@ HTTP流媒体是一种通过HTTP协议将音频和视频从网络服务器传送
 
 HTTP流媒体，以一系列叫做媒体段文件的长度10秒左右的小文件的形式，传送音频和视频。索引文件，或者叫播放列表，将媒体段文件的URL提供给客户端。播放列表可以被周期性地更新，以适应不断产生媒体片段的直播。你可以向网页中嵌入一个指向播放列表的链接或者将其发送给你开发的应用。
 
->**相关章节：**[HTTP Streaming Architecture
-](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/HTTPStreamingArchitecture/HTTPStreamingArchitecture.html#//apple_ref/doc/uid/TP40008332-CH101-SW2)
+>**相关章节：**[HTTP Streaming Architecture](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/HTTPStreamingArchitecture/HTTPStreamingArchitecture.html#//apple_ref/doc/uid/TP40008332-CH101-SW2)
 
 ###你可以按需发送视频或者直播流（加密可选）
 对于已经录制好的媒体，苹果提供一个可以将MPEG-4及H.264编码的QuickTime影片，或者AAC、MP3编码的音频文件，制作成媒体段文件和播放列表的免费工具。这些播放列表和媒体段可以用于播放视频或者广播流。
