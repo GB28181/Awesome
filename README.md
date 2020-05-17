@@ -3,7 +3,7 @@
 |:--------:|:------:|:-------:|
 | Awesome GB28181 | <https://media.arch.wiki> | <https://github.com/crazybber> |
 
-GB28181 整理的资源、项目、文章，热切欢迎PR.
+GB28181领域相关的资源、项目、文章等,重点在本页的二级/更多链接中，热切欢迎共建和PR.
 
 
 ## Articles 文章
