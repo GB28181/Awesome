@@ -24,10 +24,13 @@
 
 ## 方案
 
-### 推流、拉流与直播 -->H5直播实现方案 
+### 推流、拉流与直播 
 
-https://github.com/Tiramisupxl/blog/issues/1#issue-539422139
++ [H5直播实现方案](https://github.com/Tiramisupxl/blog/issues/1#issue-539422139)
 
++ [了解直播技术](https://github.com/dcharlie123/learning_resource/issues/35)
+
++ [使用flv.js做直播](https://github.com/gwuhaolin/blog/issues/3#issue-229271574)
 
 ## Format
 
