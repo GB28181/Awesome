@@ -8,7 +8,7 @@
 
 + [Simple Site](Category/)
 
-本目录的内容来自于： [HTTP-Live-Streaming-Overview](https://github.com/smartwsw/HTTP-Live-Streaming-Overview) 主要用于介绍：HLS
+本目录的中文内容来自于： [HTTP-Live-Streaming-Overview](https://github.com/smartwsw/HTTP-Live-Streaming-Overview) 主要用于介绍：HLS
 
 
 
