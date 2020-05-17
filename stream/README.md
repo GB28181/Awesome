@@ -40,9 +40,9 @@
 + [使用WebRTC搭建前端视频聊天室——信令篇](https://segmentfault.com/a/1190000000439103)
 + [使用WebRTC搭建前端视频聊天室——点对点通信篇](http://segmentfault.com/a/1190000000733774)
 + [使用WebRTC搭建前端视频聊天室——数据通道篇](http://segmentfault.com/a/1190000000733779)
-https://imququ.com/post/html5-live-player-3.html
 
- 更多 : https://developer.mozilla.org/zh-CN/docs/Web/API
+
+ 更多 : <https://developer.mozilla.org/zh-CN/docs/Web/API>
 
 ## Format
 
