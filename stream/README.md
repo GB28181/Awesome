@@ -10,7 +10,7 @@
 
 ## Streaming 理论
 
-+ [HLS(HTTP-Live-Streaming)](stream/HTTP-Live-Streaming/Category/)
++ [HLS(HTTP-Live-Streaming)](HTTP-Live-Streaming/Category)
 + [RTP通用头部扩展](https://www.cnblogs.com/ishen/p/12050077.html)
 + [RTP通用头部扩展-RFC5285](https://tools.ietf.org/html/rfc5285)
 + [PS封装格式：GB28181协议RTP传输](https://blog.csdn.net/ichenwin/article/details/100086930)
