@@ -63,6 +63,19 @@ GB28181、SIP、Video、Streaming、Codec等相关的domain knowledge的分类�
 
 ### H5 Player
 
+一些H5播放器，仓库里面往往都会带有示例，这个暂时就不列举了。
+
+#### Angular
+
++ [videogular2](https://github.com/videogular/videogular2) 
++ [mat-video](https://github.com/nkoehler/mat-video)
+
+#### VUE
+
++ [vue-video-player](https://github.com/surmon-china/vue-video-player)
+
+#### Javascript
+
 + [html5_rtsp_player](https://github.com/Streamedian/html5_rtsp_player)
 + [html5_rtsp_player](https://github.com/html5p/html5_rtsp_player) 上面的fork版本简化版
 + [H5player_RTSP_over_websocket](https://github.com/LiHaifeng1995/H5player_RTSP_over_websocket) 上面的fork的进一步简化版本，只有js文件
