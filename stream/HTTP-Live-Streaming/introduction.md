@@ -1,5 +1,7 @@
 # HLS(HTTP-Live-Streaming)简介
 
+***注: HLS是源于苹果公司的流媒体协议***
+
 如果你对以下任何一项感兴趣
 - 音视频流
 - 在没有特殊服务器软件的情况下传输直播事件
@@ -25,11 +27,11 @@ Safari会将含有`<video>`标签的资源以HTTP流媒体本地播放。 Mac OS
 
 HTTP流媒体规范是一份IETF互联网草案。草案的链接请见下面的“另见”一节
 
-#概览
+# 概览
 
 HTTP流媒体是一种通过HTTP协议将音频和视频从网络服务器传送到iOS设备或桌面电脑客户端应用上的方式。
 
-###你无需特殊的服务器软件即可发送视频和音频
+### 你无需特殊的服务器软件即可发送视频和音频
 
 你可以在一个普通WEB服务器上提供HTTP流媒体的音视频服务。客户端软件可以是Safari浏览器或者你为iOS或者Mac OS X开发的应用。
 
@@ -37,18 +39,17 @@ HTTP流媒体，以一系列叫做媒体段文件的长度10秒左右的小文�
 
 >**相关章节：**[HTTP Streaming Architecture](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/HTTPStreamingArchitecture/HTTPStreamingArchitecture.html#//apple_ref/doc/uid/TP40008332-CH101-SW2)
 
-###你可以按需发送视频或者直播流（加密可选）
+### 你可以按需发送视频或者直播流（加密可选）
 对于已经录制好的媒体，苹果提供一个可以将MPEG-4及H.264编码的QuickTime影片，或者AAC、MP3编码的音频文件，制作成媒体段文件和播放列表的免费工具。这些播放列表和媒体段可以用于播放视频或者广播流。
 对于直播流，苹果提供一个可以将MPEG-2传输流（包含H.264视频、ACC音频或者MP3音频）制作成段文件和播放列表的免费工具。现在有一系列的硬件和软件编码器能够实时创建搭载了MPEG-4视频和AAC音频的MPEG-2传输流。
 这些工具可以被指定加密你的媒体并生成解密密钥。你可以为你的所有流使用单一密钥、为每个流分配不同密钥或者一组随机生成的随间隔变换的密钥。密钥会被一个可以设置为周期性更改的初始化向量保护。
 
->**相关章节：**[Using HTTP Live Streaming
-](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/UsingHTTPLiveStreaming/UsingHTTPLiveStreaming.html#//apple_ref/doc/uid/TP40008332-CH102-SW1)
+>**相关章节：**[Using HTTP Live Streaming](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/UsingHTTPLiveStreaming/UsingHTTPLiveStreaming.html#//apple_ref/doc/uid/TP40008332-CH102-SW1)
 
 #先决条件
 你应该对一般的音频和视频文件格式有大概的了解，并且熟悉网络服务器和浏览器是如何工作的。
 
-#另见
+# 另见
 - [iOS Human Interface Guidelines](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html#//apple_ref/doc/uid/TP40006556)——如何为iOS设备设计网页内容
 - [HTTP Live Streaming protocol]()——HTTP流媒体规格的IETF网络草案
 - [HTTP Live Streaming Resources](https://developer.apple.com/streaming/)——帮助你开始的信息和工具集
