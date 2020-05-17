@@ -42,7 +42,7 @@
 + [使用WebRTC搭建前端视频聊天室——数据通道篇](http://segmentfault.com/a/1190000000733779)
 
 
- 更多 : <https://developer.mozilla.org/zh-CN/docs/Web/API>
+ 更多 : <https://developer.mozilla.org/zh-CN/docs/Web/API/WebRTC_API>
 
 ## Format
 
