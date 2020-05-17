@@ -20,7 +20,7 @@ GB28181、SIP、Video、Streaming、Codec等相关的domain knowledge的分类�
 
 ### GB28181
 
-+ [GB28181.Solution](https://github.com/GB28181/GB28181.Solution) - Linux/Win/Docker/kubernetesGB28181/作为上下级域/平台级联互联
++ [GB28181.Solution](https://github.com/GB28181/GB28181.Solution) -  Linux/Win/Docker/kubernetes/Chart/Kustomize/GB28181/作为上下级域/平台级联互联
 + [GB28181(C/C++)](https://github.com/usecpp/GB28181Platform) - A Pure C/C++ version of GB28181 Platform
 
 + [GB28181-in-Android(C/C++/Java)](https://github.com/zhoudd1/GB28181Android) - GB28181 for Android, include RTP/PS/H264/G711
