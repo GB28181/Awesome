@@ -5,7 +5,7 @@
 
 ![GB28181-Simulation-Tool](https://github.com/GB28181/images/blob/master/Tools/spvm.png?raw=true)
 
-+ [GB28181国标平台软件(包含服务器和客户端)](https://github.com/GB28181/GB28181_ServerPlatform)
++ [GB28181国标平台测试软件工具(包含服务器和客户端)](https://github.com/GB28181/GB28181_ServerPlatform)
 
 服务器
 
