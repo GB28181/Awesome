@@ -3,6 +3,8 @@
 
 Happytime gb28181 device
 
+![Happytime gb28181 device](http://www.happytimesoft.com/products/gb28181-device/screenshot.html)
+
 ## Introduce
 
 Happytime GB28181 device is a program conforming to GB28181 standard,Support GB28181 2016 version. Support most functions of GB28181. Support H264 PS package. Support subscription, notification function. Support recording playback, recording download, Support audio talk and audio broadcast. Support cross-platform compilation, Support windows, linux, ios, android and embedded linux platform etc. Tested by GB28181 automated test tool. Code porting is simple and easy. Suitable for developing devices such as IP cameras, NVR that support GB28181. The target file is small and the program runs stably.
