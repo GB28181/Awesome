@@ -3,7 +3,7 @@
 
 Happytime gb28181 device
 
-![Happytime gb28181 device](http://www.happytimesoft.com/products/gb28181-device/screenshot.html)
+![Happytime gb28181 device](http://www.happytimesoft.com/products/gb28181-device/gb28181-device.jpg)
 
 ## Introduce
 
