@@ -3,7 +3,7 @@
 
 + [GB28181-Simulation-Tool](https://github.com/GB28181/GB28181-Simulation-Tool): 国标模拟测试工具，可以模拟上下级和设备
 
-+ [GB28181国标平台软件(包含服务器和客户端)](https://github.com/QuickGBLink88/GB28181_ServerPlatform)
++ [GB28181国标平台软件(包含服务器和客户端)](https://github.com/GB28181/GB28181_ServerPlatform)
 
 服务器
 
